@@ -39,7 +39,7 @@ logicalVector[1:2] <- TRUE
 
 # remove unnecessary data columns
 mergedData <- mergedData[, logicalVector]
-ncol(mergedData)
+#ncol(mergedData)
 #names(mergedData)
 
 #3 Uses descriptive activity names to name the activities in the data set
