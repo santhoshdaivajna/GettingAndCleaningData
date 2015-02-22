@@ -35,8 +35,9 @@ Processing steps
 3 . Only columns containing mean and std in their names were retained by using grepl.
 4. The activity column was converted from a integer to a factor labels.
 5. A tidy data set was created containing the mean of each feature for each subject and each activity. 
-The tidy data set was output to a CSV file.
+The tidy data set was output to a text file.
 
 Output
 ===================================================================
-The tidy data set was output to a CSV file.
+The tidy data set was output to a text file.
+Output.txt contains 1 record for each activity for each subject. So there are 6 records for each subject and in all 180 rows.
